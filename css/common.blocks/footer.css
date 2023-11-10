@@ -1,0 +1,42 @@
+.footer {
+    min-height: 200px;
+    padding: 50px 0;
+    background-color: #262626;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.footer__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer__label {
+    display: flex;
+    flex-direction: column;
+    color: #CCC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+
+.footer__input {
+    width: 280px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #CCC;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    background-color: transparent;
+}
+
+.footer__btn {
+    color: #CCC;
+    align-self: end;
+}

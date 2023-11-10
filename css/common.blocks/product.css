@@ -1,0 +1,21 @@
+.product {
+    padding-bottom: 115px;
+    background-color: #EBEBEB;
+    
+}
+
+.product__container {
+    padding: 0;
+}
+
+.product__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product__text {
+    margin-left: 40px;
+    transform: translateY(-45px);
+    letter-spacing: 1.2px;
+    font-size: 12px;
+}

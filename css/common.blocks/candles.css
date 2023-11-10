@@ -1,0 +1,51 @@
+.candles {
+    min-height: 800px;
+    padding: 40px 0;
+    position: relative;
+    background-color: #9C8554;
+}
+
+.candles__content {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.candles__title {
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.candles__text {
+    max-width: 278px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #B2B2B2;
+}
+
+.candles__link {
+    padding-bottom: 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #B2B2B2;
+}
+
+.candles__text-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.candles__img {
+    max-width: 1065px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.candles__text_size {
+    margin: 0;
+}

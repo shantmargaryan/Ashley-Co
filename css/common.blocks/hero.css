@@ -1,0 +1,133 @@
+.hero {
+    background-color: #E7F066;
+}
+
+.hero__container {
+    padding: 0;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title-link {
+    position: relative;
+    bottom: -140px;
+    z-index: 1;
+    padding-left: 40px;
+    font-size: 12px;
+    line-height: 13px
+}
+
+.hero__img-block {
+    flex: 1 1 78.26%;
+}
+
+.hero__img-box {
+    padding-bottom: 61.39%;
+    margin-bottom: 40px;
+}
+
+.hero__content {
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__link {
+    position: relative;
+    display: inline-block;
+    color: #262626;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding-bottom: 5px;
+}
+
+.hero__text {
+    max-width: 275px;
+}
+
+.hero__text_size {
+    font-size: 25px;
+}
+
+.hero__text_white {
+    margin: 0;
+    color: #F1F1EE;
+    font-size: 16px;
+}
+
+.hero__text-link {
+    position: relative;
+    color: #262626;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.hero__text-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 145px;
+    height: 1px;
+    left: 0;
+    background-color: #262626;
+}
+
+.hero__text_top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.hero__img-block-text {
+    max-width: 456px;
+}
+
+.hero__img-block-text {
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+.hero__box {
+    position: relative;
+    max-width: 100%;
+    background-color: #1B1B1B;
+    padding: 40px;
+    margin-top: auto;
+}
+
+.hero__link_white {
+    color: #F1F1EE;
+    font-size: 12px;
+    border-bottom: 1px solid #F1F1EE;
+}
+
+@media(min-width:992px) {
+    .hero__container {
+        flex-direction: row;
+        padding-right: 15px;
+    }
+
+    .hero__box {
+        right: 5px;
+        max-width: 376px;
+        padding: 10px;
+    }
+
+    .hero__content {
+        padding-top: 110px;
+    }
+
+    .hero__img-block-text {
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:1200px) {
+    .hero__box {
+        padding: 40px;
+        right: 40px;
+    }
+}
