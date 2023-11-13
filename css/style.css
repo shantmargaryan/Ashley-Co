@@ -530,7 +530,7 @@ html {
 .room {
     min-height: 1000px;
     padding-top: 119px;
-    background: url(/img/flower.png);
+    background: url(../img/flower.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
