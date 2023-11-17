@@ -238,7 +238,17 @@ html {
     flex-direction: column;
 }
 
-.hero__title-link {
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.hero__title {
     position: relative;
     bottom: -140px;
     z-index: 1;
@@ -428,7 +438,8 @@ html {
     grid-template-columns: 1fr 1fr;
 }
 
-.product__text {
+.product__title {
+    color: #262626;
     margin-left: 40px;
     transform: translateY(-45px);
     letter-spacing: 1.2px;
