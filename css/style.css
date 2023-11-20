@@ -439,11 +439,14 @@ html {
 }
 
 .product__title {
+    display: inline-block;
     color: #262626;
     margin-left: 40px;
+    padding-bottom: 10px;
     transform: translateY(-45px);
     letter-spacing: 1.2px;
     font-size: 12px;
+    border-bottom: 1px solid #262626;
 }
 
 .about {
