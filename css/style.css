@@ -375,11 +375,18 @@ html {
 }
 
 .candles {
+    position: relative;
     min-height: 800px;
     padding: 40px 0;
-    position: relative;
     background-color: #9C8554;
 }
+
+@media(max-width:575px) {
+    .candles {
+        min-height: 400px;
+    }
+}
+
 
 .candles__content {
     min-height: 800px;
@@ -387,6 +394,13 @@ html {
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media(max-width:575px) {
+    .candles__content {
+        min-height: 450px;
+    }
+}
+
 
 .candles__title {
     position: relative;
@@ -413,6 +427,7 @@ html {
     flex-wrap: wrap;
     gap: 10px;
 }
+
 
 
 .candles__img {
@@ -509,6 +524,12 @@ html {
     background-color: #A26779;
 }
 
+@media(max-width:575px) {
+    .modern {
+        min-height: 400px;
+    }
+}
+
 .modern__content {
     min-height: 800px;
     position: relative;
@@ -516,6 +537,12 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media(max-width:575px) {
+    .modern__content {
+        min-height: 450px;
+    }
 }
 
 .modern__text {
@@ -585,6 +612,7 @@ html {
     background-color: #504B4D;
 }
 
+
 .wash__content {
     min-height: 800px;
     position: relative;
@@ -593,6 +621,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 .wash__text {
     max-width: 274px;
@@ -606,6 +635,7 @@ html {
     border-bottom: 1px solid #B2B2B2;
 }
 
+
 .wash__img {
     max-width: 1065px;
     position: absolute;
@@ -618,6 +648,25 @@ html {
     color: #B2B2B2;
     font-size: 25px;
     text-align: right;
+}
+
+
+@media(max-width:575px) {
+    .wash {
+        min-height: 400px;
+    }
+
+    .wash__content {
+        min-height: 450px;
+    }
+
+    .wash__subtitle {
+        font-size: 16px;
+    }
+
+    .wash__subtitle {
+        margin-top: 10px;
+    }
 }
 
 .industry {
@@ -634,6 +683,16 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media(max-width:575px){
+    .industry {
+        min-height: 400px;
+    }
+
+    .industry__content {
+        min-height: 450px;
+    }
 }
 
 .industry__text {
